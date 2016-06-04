@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>tree</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<ul class="tree">
+		<li>
+			<span>林滨</span>
+		</li>
+		<li>
+			<span>张铃崎</span>
+			<ul>
+				<li><span>网站</span>
+					<ul>
+						<li>
+							<span>博客</span>
+							<ul>
+								<li><a target="_blank" href="http://www.kilingzhang.com/wordpress/2016/05/23/%E7%8F%AD%E5%A7%94%E5%B8%AE%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0%E6%97%A5%E8%AE%B0/">班委帮系统-one</a></li>
+								<li><a target="_blank" href="http://www.kilingzhang.com/wordpress/2016/05/11/%E5%9F%BA%E4%BA%8E%E5%BE%AE%E4%BF%A1%E5%AE%9E%E7%8E%B0%E8%B7%AF%E7%94%B1%E7%9A%84wifi%E7%99%BB%E9%99%86%E8%AE%BE%E6%83%B3/">基于微信实现路由的wifi登陆设想</a></li>
+								<li><a target="_blank" href="http://www.kilingzhang.com/wordpress/2016/05/07/phpstrom%E6%B3%A8%E5%86%8C%E7%A0%81/">phpstrom注册码</a></li>
+							</ul>
+						</li>
+						<li class="active"><a target="_blank" href="http://www.kilingzhang.com/ouyanglina/">欧阳李娜</a></li>
+					</ul>
+				</li>
+				<li>
+					<span>教务系统</span>
+					<ul>
+						<li>帐号：2015551439</li>
+						<li>密码：*********</li>
+					</ul>
+				</li>
+				<li><span>个人信息</span>
+					<ul>
+						<li>tel:1**********</li>
+						<li>address:QH18-402</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<span>贺令</span>
+			<ul>
+				<li>
+					<span>网站</span>
+					<ul>
+						<li>挂了...</li>
+						<li>维护中...</li>
+					</ul>
+				</li>
+				<li>
+					<span>教务系统</span>
+					<ul>
+						<li>帐号：2015551416</li>
+						<li>密码：*********</li>
+					</ul>
+				</li>
+				<li>
+					<span>个人信息</span>
+					<ul>
+						<li>tel:1**********</li>
+						<li>address:QH18-402</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<script src="jQuery v2.1.4.js"></script>
+	<script src="LBinin-tree.js"></script>
+	<script>
+		$(".tree").treemenu({
+			delay:300,
+			openActive:true,
+			// activeSelector:"active",
+		});
+	</script>
+</body>
+</html>
