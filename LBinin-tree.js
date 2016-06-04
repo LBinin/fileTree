@@ -22,9 +22,9 @@
  	$.fn.treemenu = function(options) {
  		options = options || {};
  		options.delay = options.delay || 0; // 默认0ms
- 		options.activeSelector = options.activeSelector || true;
+ 		options.openActive = options.openActive || true;
  		options.activeSelector = options.activeSelector || ".active";
- 
+  		
  		this.addClass("treemenu");
  
  		this.find("> li").each(function() {
