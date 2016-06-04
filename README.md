@@ -1,19 +1,13 @@
 # FileTree
 	A lightweight tree of file. | jQuery plugin | Powered by LBinin
 # Usage
-1.Create a `ul` element whose class name is `tree`.
+1. Create a `ul` element whose class name is `tree`.
 
-=========
+2. Below the `ul` you can create a element `li`.In this `li` element,you can creat element `span`,it's inner content is what you want to show.
 
-2.Below the `ul` you can create a element `li`.In this `li` element,you can creat element `span`,it's inner content is what you want to show.
+3. Below the `li` you can continue create `ul`,But please Follow the rules.
 
-=========
-
-3.Below the `li` you can continue create `ul`,But please Follow the rules.
-
-=========
-
-4.In the foot of html,please add the following code
+4. In the foot of html,please add the following code
 ```javascript
 $(".tree").treemenu({
 	delay:300,
