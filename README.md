@@ -18,7 +18,7 @@
 $(".tree").treemenu({
 	delay:300,
 	openActive:true,
-	activeSelector:"active",
+	activeSelector:".active",
 });
 ```
 ###parameters explain:###
