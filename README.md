@@ -16,6 +16,7 @@ $(".tree").treemenu({
 	activeSelector:".active",
 });
 ```
+========
 ###parameters explain:###
 1. **delay** : animation duration.Unit is `ms`.(default parameter is `0 ms`)
 2. **autoClose** : auto close all the list below the item you are closing.(default parameter is `true`)
