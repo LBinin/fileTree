@@ -1,4 +1,4 @@
-# fileTree
+# FileTree
 	A lightweight tree of file. | jQuery plugin | Powered by LBinin
 # Usage
 1.Create a `ul` element whose class name is `tree`.
