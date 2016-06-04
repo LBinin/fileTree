@@ -21,7 +21,7 @@ $(".tree").treemenu({
 	activeSelector:"active",
 });
 ```
-	parameters explain:
-	1. delay : animation duration.Unit is `ms`.(default parameter is 0 ms)
-	2. openActive : open the file tree form which class name is `active` or not.(default parameter is "true")
-	3. activeSelector : when you click the item(span) you can add a class name which named `activeSelector` to the item which you clicked.(default parameter is null)
+###parameters explain:###
+1. delay : animation duration.Unit is `ms`.(default parameter is 0 ms)
+2. openActive : open the file tree form which class name is `active` or not.(default parameter is "true")
+3. activeSelector : when you click the item(span) you can add a class name which named `activeSelector` to the item which you clicked.(default parameter is null)
