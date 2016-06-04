@@ -22,9 +22,10 @@
  	$.fn.treemenu = function(options) {
  		options = options || {};
  		options.delay = options.delay || 0; // 默认0ms
+        options.autoClose = options.autoClose || true; 
  		options.openActive = options.openActive || true;
- 		options.activeSelector = options.activeSelector || ".active";
-  		
+        options.activeSelector = options.activeSelector || ".active"; // 默认类名为“active”
+ 
  		this.addClass("treemenu");
  
  		this.find("> li").each(function() {
@@ -49,6 +50,15 @@
  					li.toggleClass("tree-opened");
  					li.toggleClass("tree-closed");
                     li.toggleClass(options.activeSelector); // 添加激活类
+                
+                    if (options.autoClose) { // 关闭下面所有展开目录
+                        li.find("li.tree-opened").each(function() {
+                    	var neul = $(this).find("> ul");
+        			    neul.slideToggle(options.delay);
+        			    $(this).removeClass("tree-opened");
+        			    $(this).addClass("tree-closed");
+                	    	});
+                    }
  				});
  				x.find("> ul").treemenu(options);
  			}else { // 下面没有目录的话
