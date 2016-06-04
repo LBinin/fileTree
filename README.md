@@ -27,4 +27,4 @@ $(".tree").treemenu({
 3. activeSelector : when you click the item(span) you can add a class name which named `activeSelector` to the item which you clicked.(default parameter is `null`)
 
 #Instance Link
-[http://www.lbinin.com/sky31/tree/](http://www.lbinin.com/sky31/tree/)
+	[http://www.lbinin.com/sky31/tree/](http://www.lbinin.com/sky31/tree/)
